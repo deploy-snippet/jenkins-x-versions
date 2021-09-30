@@ -4,7 +4,7 @@ set -x
 
 export GH_USERNAME="jenkins-x-versions-bot-test"
 export GH_OWNER="cb-kubecd"
-dddddddddddd
+ffff
 # fix broken `BUILD_NUMBER` env var
 export BUILD_NUMBER="$BUILD_ID"
 
