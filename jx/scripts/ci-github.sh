@@ -4,7 +4,7 @@ set -x
 
 export GH_USERNAME="jenkins-x-versions-bot-test"
 export GH_OWNER="cb-kubecd"
-
+ff
 # fix broken `BUILD_NUMBER` env var
 export BUILD_NUMBER="$BUILD_ID"
 
@@ -18,7 +18,7 @@ jx step git credentials
 
 gcloud auth activate-service-account --key-file $GKE_SA
 
-# lets setup git 
+# lets setup git
 git config --global --add user.name JenkinsXBot
 git config --global --add user.email jenkins-x@googlegroups.com
 
