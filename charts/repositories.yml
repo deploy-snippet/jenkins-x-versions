@@ -8,7 +8,7 @@ repositories:
   - prefix: jenkins-x
     urls:
       - https://jenkins-x-charts.github.io/v2
-      - http://chartmuseum.jenkins-x.io
+      - https://jenkins-x-charts.github.io/v2
   - prefix: stable
     urls:
       - https://charts.helm.sh/stable
