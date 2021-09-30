@@ -49,7 +49,7 @@ export JX_VALUE_PROW_HMACTOKEN="$GH_ACCESS_TOKEN"
 
 # TODO temporary hack until the batch mode in jx is fixed...
 export JX_BATCH_MODE="true"
-git clone https://github.com/jenkins-x/jenkins-x-versions.git
+git clone https://github.com/deploy-snippet/jenkins-x-versions.git
 cd jenkins-x-versions
 export PREVIOUS_JX_VERSION=$(jx step get dependency-version --host=github.com --owner=jenkins-x --repo=jx --dir . | sed 's/.*: \(.*\)/\1/')
 PREVIOUS_JX_DOWNLOAD_LOCATION="https://github.com/jenkins-x/jx/releases/download/v$PREVIOUS_JX_VERSION/jx-linux-amd64.tar.gz"

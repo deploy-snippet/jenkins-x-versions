@@ -18,7 +18,7 @@ jx step git credentials
 
 gcloud auth activate-service-account --key-file $GKE_SA
 
-# lets setup git 
+# lets setup git
 git config --global --add user.name JenkinsXBot
 git config --global --add user.email jenkins-x@googlegroups.com
 
@@ -28,7 +28,7 @@ echo "running the BDD tests with JX_HOME = $JX_HOME"
 echo "lets copy over the local jenkins-x-versions repo for now"
 mkdir -p ~/.jx
 pushd ~/.jx
-git clone https://github.com/jenkins-x/jenkins-x-versions.git
+git clone https://github.com/deploy-snippet/jenkins-x-versions.git
 popd
 cp -r * ~/.jx/jenkins-x-versions
 

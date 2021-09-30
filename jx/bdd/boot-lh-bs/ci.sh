@@ -58,7 +58,7 @@ cp ../jx/bdd/boot-lh-bs/parameters.yaml env
 jx step bdd \
     --use-revision \
     --version-repo-pr \
-    --versions-repo https://github.com/jenkins-x/jenkins-x-versions.git \
+    --versions-repo https://github.com/deploy-snippet/jenkins-x-versions.git \
     --config ../jx/bdd/boot-lh-bs/cluster.yaml \
     --gopath /tmp \
     --git-provider bitbucketeserver \

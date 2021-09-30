@@ -60,7 +60,7 @@ export BDD_TEST_SINGLE_IMPORT="spring-boot-http-gradle"
 jx step bdd \
     --use-revision \
     --version-repo-pr \
-    --versions-repo https://github.com/jenkins-x/jenkins-x-versions.git \
+    --versions-repo https://github.com/deploy-snippet/jenkins-x-versions.git \
     --config ../jx/bdd/boot-vault/cluster.yaml \
     --gopath /tmp \
     --git-provider=github \

@@ -60,7 +60,7 @@ export BDD_TEST_SINGLE_IMPORT="node-http"
 jx step bdd \
     --use-revision \
     --version-repo-pr \
-    --versions-repo https://github.com/jenkins-x/jenkins-x-versions.git \
+    --versions-repo https://github.com/deploy-snippet/jenkins-x-versions.git \
     --config ../jx/bdd/boot-lh/cluster.yaml \
     --gopath /tmp \
     --git-provider=github \
