@@ -9,7 +9,7 @@ controller:
   {{- end }}
   {{- if eq .Values.jxRequirements.cluster.provider "eks" }}
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: nlb
+    service.beta.kubernetes.io/aws-load-balancer-type: alb
   {{- end }}
 defaultBackend:
   service:
