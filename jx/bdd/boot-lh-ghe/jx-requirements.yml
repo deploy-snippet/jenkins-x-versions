@@ -25,7 +25,7 @@ ingress:
     enabled: false
     production: false
 kaniko: true
-repository: nexus
+repository: ""
 secretStorage: local
 storage:
   logs:
@@ -35,4 +35,3 @@ storage:
     enabled: true
     url: "gs://jx-bdd-log-store3"
 webhook: lighthouse
-

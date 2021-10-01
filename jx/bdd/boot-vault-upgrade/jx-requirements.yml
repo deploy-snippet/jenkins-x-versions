@@ -23,7 +23,7 @@ ingress:
     enabled: false
     production: false
 kaniko: true
-repository: nexus
+repository: ""
 secretStorage: vault
 storage:
   logs:
@@ -38,4 +38,3 @@ versionStream:
   ref: master
   url: https://github.com/deploy-snippet/jenkins-x-versions.git
 webhook: lighthouse
-

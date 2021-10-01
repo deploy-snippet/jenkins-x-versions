@@ -30,7 +30,7 @@ ingress:
     enabled: true
     production: true
 kaniko: true
-repository: nexus
+repository: ""
 secretStorage: vault
 storage:
   logs:
