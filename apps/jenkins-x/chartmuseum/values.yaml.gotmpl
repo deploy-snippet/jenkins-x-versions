@@ -3,6 +3,8 @@ service:
   annotations:
     fabric8.io/expose: "true"
     fabric8.io/ingress.annotations: "kubernetes.io/ingress.class: alb"
+spec:
+  type: NodePort
 
 fullnameOverride: jenkins-x-chartmuseum
 
