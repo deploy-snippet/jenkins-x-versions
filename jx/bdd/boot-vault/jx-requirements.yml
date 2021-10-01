@@ -22,7 +22,7 @@ ingress:
     enabled: false
     production: false
 kaniko: true
-repository: nexus
+repository: ""
 secretStorage: vault
 storage:
   logs:
@@ -34,4 +34,3 @@ storage:
 vault:
   disableURLDiscovery: true
 webhook: lighthouse
-
